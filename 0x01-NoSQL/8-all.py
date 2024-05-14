@@ -9,7 +9,7 @@ from typing import List
 
 def list_all(mongo_collection: Collection) -> List[dict]:
     '''
-    Returns a list of documents
+    Returns a list of documents in a collection
     '''
 
     documents = mongo_collection.find()
