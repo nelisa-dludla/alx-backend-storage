@@ -4,10 +4,8 @@ This function that returns the list
 of school having a specific topic
 '''
 
-from pymongo.collection import Collection
 
-
-def schools_by_topic(mongo_collection: Collection, topic: str) -> list:
+def schools_by_topic(mongo_collection, topic):
     '''
     Returns a list of schools having a specific topic
     '''
