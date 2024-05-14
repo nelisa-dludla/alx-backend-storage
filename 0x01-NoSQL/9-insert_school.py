@@ -4,11 +4,8 @@ This function inserts a new document
 in a collection based on kwargs
 '''
 
-from pymongo.collection import Collection
-from typing import Dict
 
-
-def insert_school(mongo_collection: Collection, **kwargs: Dict):
+def insert_school(mongo_collection, **kwargs):
     '''
     Inserts a new document into a collection
     '''

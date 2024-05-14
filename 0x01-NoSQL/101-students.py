@@ -3,11 +3,8 @@
 This function returns all students sorted by average score
 '''
 
-import pymongo
-from pymongo.collection import Collection
 
-
-def top_students(mongo_collection: Collection):
+def top_students(mongo_collection):
     '''
     Returns all students sorted by average score
     '''
